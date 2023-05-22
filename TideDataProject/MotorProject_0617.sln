@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{F938D73D-C887-F7FB-18D0-657D640ED45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.UnityGoogleDrive.Runtime", "Elringus.UnityGoogleDrive.Runtime.csproj", "{942933B1-36A3-D94E-ECF4-96DB9BD745BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elringus.UnityGoogleDrive.Editor", "Elringus.UnityGoogleDrive.Editor.csproj", "{AE92018C-1E4C-1F28-716E-E9737A5164F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F938D73D-C887-F7FB-18D0-657D640ED45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F938D73D-C887-F7FB-18D0-657D640ED45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F938D73D-C887-F7FB-18D0-657D640ED45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F938D73D-C887-F7FB-18D0-657D640ED45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942933B1-36A3-D94E-ECF4-96DB9BD745BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942933B1-36A3-D94E-ECF4-96DB9BD745BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942933B1-36A3-D94E-ECF4-96DB9BD745BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942933B1-36A3-D94E-ECF4-96DB9BD745BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE92018C-1E4C-1F28-716E-E9737A5164F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE92018C-1E4C-1F28-716E-E9737A5164F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE92018C-1E4C-1F28-716E-E9737A5164F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE92018C-1E4C-1F28-716E-E9737A5164F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
