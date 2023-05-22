@@ -465,7 +465,7 @@ public class Menu : MonoBehaviour
         //辨識傳輸方式
         form_Read.AddField("method", "Read");
         //學校名稱的試算表
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyYvCzfpC9rkr4jxHa_70GTOMVKNuVd2ECVnxZFGTMLYQXPeAIJMnR1Yvv1Y1dyz7k2/exec", form_Read))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyBd4m73zf-S-Mu0Az47lFrNzx2SU2MDLMCl9efRBqs7oziGE_kN70kd2MHtFdpoxbBKw/exec", form_Read))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
@@ -540,7 +540,7 @@ public class Menu : MonoBehaviour
         //辨識傳輸方式
         form_Read.AddField("method", "Read");
         //學校名稱的試算表
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbx6Wa1Zq-tFCxUpvrwwxpptYnjeedx0_151b4KJUUJIHGXcQgj9rwC00p8tqCyttAIPag/exec", form_Read))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyn3JQaEjP-7zmNvmGLObanIy4-q7gIZ0a72x7d2YXZIwyb7fmxefF3Ktb-ovL0y8c3Nw/exec", form_Read))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
@@ -564,7 +564,7 @@ public class Menu : MonoBehaviour
         //辨識傳輸方式
         form_Read.AddField("method", "Read");
         //學校名稱的試算表
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbx6Wa1Zq-tFCxUpvrwwxpptYnjeedx0_151b4KJUUJIHGXcQgj9rwC00p8tqCyttAIPag/exec", form_Read))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyn3JQaEjP-7zmNvmGLObanIy4-q7gIZ0a72x7d2YXZIwyb7fmxefF3Ktb-ovL0y8c3Nw/exec", form_Read))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
@@ -589,7 +589,7 @@ public class Menu : MonoBehaviour
         //辨識傳輸方式
         form_Read.AddField("method", "Read");
         //學校名稱的試算表
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbx6Wa1Zq-tFCxUpvrwwxpptYnjeedx0_151b4KJUUJIHGXcQgj9rwC00p8tqCyttAIPag/exec", form_Read))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyn3JQaEjP-7zmNvmGLObanIy4-q7gIZ0a72x7d2YXZIwyb7fmxefF3Ktb-ovL0y8c3Nw/exec", form_Read))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
@@ -618,7 +618,7 @@ public class Menu : MonoBehaviour
         //辨識傳輸方式
         form.AddField("method", "write");
         form.AddField("SchoolName", SignAddSchoolInput.text);
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyYvCzfpC9rkr4jxHa_70GTOMVKNuVd2ECVnxZFGTMLYQXPeAIJMnR1Yvv1Y1dyz7k2/exec", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyBd4m73zf-S-Mu0Az47lFrNzx2SU2MDLMCl9efRBqs7oziGE_kN70kd2MHtFdpoxbBKw/exec", form))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
@@ -646,7 +646,7 @@ public class Menu : MonoBehaviour
         form.AddField("method", "write");
         //個人資訊用\t隔開
         form.AddField("TeacherData", SignScoolDropDown.options[SignScoolDropDown.value].text + "/" + SignNameInput.text + "/" + SignEmailInput.text + "/" + SignPasswordInput.text);
-        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbx6Wa1Zq-tFCxUpvrwwxpptYnjeedx0_151b4KJUUJIHGXcQgj9rwC00p8tqCyttAIPag/exec", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("https://script.google.com/macros/s/AKfycbyn3JQaEjP-7zmNvmGLObanIy4-q7gIZ0a72x7d2YXZIwyb7fmxefF3Ktb-ovL0y8c3Nw/exec", form))
         {
             yield return www.SendWebRequest();
             if (www.isNetworkError || www.isHttpError)
