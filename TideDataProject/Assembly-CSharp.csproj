@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\00Scripts\BtnFeatures\BtnFeature.cs" />
+    <Compile Include="Assets\00Scripts\BtnFeatures\TimeClick.cs" />
     <Compile Include="Assets\00Scripts\MainData.cs" />
     <Compile Include="Assets\00Scripts\Menu.cs" />
     <Compile Include="Assets\00Scripts\SettingPage.cs" />
@@ -72,6 +73,10 @@
     <Compile Include="Assets\00Scripts\開啟本地端資料\DialogTest.cs" />
     <Compile Include="Assets\00Scripts\開啟本地端資料\LocalDialog.cs" />
     <Compile Include="Assets\00Scripts\開啟本地端資料\OpenFileName.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCam.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\FreeCamera.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\SuperCamera.cs" />
+    <Compile Include="Assets\Ciconia Studio\_Shared Files\Scripts\Demo\UIButton_ShowNext.cs" />
     <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Opaque.shader" />
@@ -265,6 +270,39 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.CJK">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.CJK.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.MidEast">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.MidEast.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Other">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.Other.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.Rare">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.Rare.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/Octane/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Runtime">
+      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Assets/Plugins/Octane/Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -611,32 +649,14 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/USER/Desktop/230522/universeScore2023/TideDataProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
